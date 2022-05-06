@@ -1,0 +1,29 @@
+{
+    "data":[
+        {
+            "thumbnailImageSrc": "assets/images/our-partners/partner1.png",
+            "alt": "Description for Image 1",
+            "title": "Title 1"
+        },
+        {
+            "thumbnailImageSrc": "assets/images/our-partners/partner2.png",
+            "alt": "Description for Image 1",
+            "title": "Title 1"
+        },
+        {
+            "thumbnailImageSrc": "assets/images/our-partners/partner3.png",
+            "alt": "Description for Image 1",
+            "title": "Title 1"
+        },
+        {
+            "thumbnailImageSrc": "assets/images/our-partners/partner4.png",
+            "alt": "Description for Image 1",
+            "title": "Title 1"
+        },
+        {
+            "thumbnailImageSrc": "assets/images/our-partners/partner5.png",
+            "alt": "Description for Image 1",
+            "title": "Title 1"
+        }
+    ]
+}

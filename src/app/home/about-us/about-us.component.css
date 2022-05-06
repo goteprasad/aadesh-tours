@@ -1,0 +1,16 @@
+.about-us-main-para p{
+    text-align: center;
+}
+.why-choose-us{
+    background-color: #fff;
+}
+.why-choose-us i{
+    font-size: 36px;
+    color: #d60d45;
+}
+::ng-deep.card-why-choose{
+    text-align: center;
+}
+.testimonials{
+    border-top: 1px solid #ddd;
+}

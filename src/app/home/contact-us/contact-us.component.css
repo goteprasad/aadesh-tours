@@ -1,0 +1,25 @@
+ul.contact-us{
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+ul.contact-us li{
+    list-style-type: none;
+    line-height: 30px;
+    position: relative;
+}
+ul.contact-us li i{
+    position: absolute;
+    left: -35px;
+    font-size: 18px;
+    top: 5px;
+    color: #ffc63f;
+}
+section{
+    background-color: #fff;
+}
+.contact-right-col{
+    padding-left: 60px;    
+}
+.google-map{
+    padding-bottom: 0;
+}

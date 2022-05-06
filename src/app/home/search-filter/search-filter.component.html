@@ -1,0 +1,24 @@
+<p-card>
+    <div class="row p-fluid">
+        <div class="col p-field">
+            <label>Select place</label>
+            <p-dropdown [options]="cities1" [(ngModel)]="selectedCity1"></p-dropdown>
+        </div>
+        <div class="col p-field">
+            <label>Select date</label>
+            <div class="icon-input">
+                <i class="pi pi-calendar"></i>
+                <p-calendar [(ngModel)]="value"></p-calendar>
+            </div>
+        </div>
+        <div class="col p-field">
+            <label>Price range</label>
+            <div class="price-range">
+                <p-slider [(ngModel)]="val" [min]="0" [max]="100"></p-slider>
+            </div>
+        </div>
+        <div class="col-sm-2 p-field search-btn">
+            <button pButton label="Search" type="button" class="ui-button-raised ui-button-rounded"></button>
+        </div>
+    </div>
+</p-card>

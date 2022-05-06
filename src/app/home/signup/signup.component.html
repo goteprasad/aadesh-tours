@@ -1,0 +1,46 @@
+<div class="login-signup-container">
+    <p-card class="login-card">
+        <p-header class="text-center">
+            <a routerLink="/home">Back to <i class="pi pi-home"></i></a>
+            <h2>Signup</h2>
+        </p-header>
+        <form [formGroup]="signupForm">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="form-label">User name</label>
+                        <input pInputText formControlName="userName" type="text" placeholder="User name" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="form-label">Password</label>
+                        <input pInputText formControlName="password" type="password" placeholder="Password" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <div class="form-group">
+                        <label class="form-label">Name</label>
+                        <input pInputText formControlName="name" type="text" placeholder="Name" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <div class="form-group">
+                        <label class="form-label">Phone</label>
+                        <input pInputText formControlName="phone" type="number" placeholder="Phone" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input pInputText formControlName="email" type="email" placeholder="Email ID" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p-footer>
+            <button pButton type="button" label="Signup" (click)="onSubmitForm()" class="login-btn"></button>
+            <p class="text-center mb-0 mt-2">Already having account ? <a routerLink="/login">Login</a></p>
+        </p-footer>
+    </p-card>
+</div>

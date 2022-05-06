@@ -1,0 +1,68 @@
+.top-header{
+    background-color: #005294;
+    padding: 10px 15px;
+}
+.top-header .row{
+    margin: 0 !important;
+}
+.top-header ul{
+    margin: 0;
+    padding: 0;
+}
+.top-header ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: #fff;
+    margin-left: 30px;
+}
+.top-header ul li i{
+    float: left;
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+}
+.top-header ul li:first-child{
+    margin-left: 0;
+}
+.top-header .login-col a{
+    color: #fff;
+}
+.top-header .login-col a i{
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+}
+
+.logo{
+    align-self: flex-start;
+    width: 300px;
+    float: left;
+    padding-top: 8px;
+}
+::ng-deep.p-menubar{
+    align-self: flex-end;
+    float: left;
+    padding: 15px 0 !important;
+    border: none !important;
+}
+::ng-deep.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link{
+    padding: 10px 30px !important;
+}
+::ng-deep.p-menubar .p-menuitem-link:focus{
+    box-shadow: none !important;
+}
+::ng-deep.p-menubar .p-menuitem-link:not(.p-state-disabled):hover{
+    background-color: #fff !important;
+}
+::ng-deep.p-menubar .p-menuitem-link.p-menuitem-link-active .p-menuitem-text{
+    color: #d60d45 !important;
+    font-weight: 600;
+}
+::ng-deep.p-menubar .p-menuitem-link:not(.p-state-disabled):hover .p-menuitem-text{
+    color: #d60d45 !important;
+}
+::ng-deep.p-menubar .p-menuitem-link .p-menuitem-text{
+    font-weight: 500;
+}

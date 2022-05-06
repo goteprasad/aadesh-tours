@@ -1,0 +1,32 @@
+<p-carousel [value]="images" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+    <ng-template let-pkg pTemplate="item">
+        <div class="car-details">
+            <div class="p-grid">
+                <div class="p-col-12">
+                    <img src="{{pkg.thumbnailImageSrc}}" />
+                </div>
+                <div class="car-price">
+                    {{pkg.price}}
+                </div>
+                <div class="p-col-12 car-data">
+                    <div class="car-title">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                {{pkg.title}}
+                            </div>
+                            <div class="col-sm-4 pkg-duration">
+                                <i class="pi pi-clock"></i> {{pkg.duration}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-subtitle"></div>
+                    <p>{{pkg.desc}}</p>
+
+                    <div class="car-buttons">
+                        <button pButton label="View details" type="button" class="ui-button-secondary"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>

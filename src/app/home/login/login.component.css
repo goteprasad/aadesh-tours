@@ -1,0 +1,15 @@
+.login-signup-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-signup-container .login-card{
+    width: 35%;
+    padding: 60px;
+}
+.login-btn{
+    width: 100%;
+}

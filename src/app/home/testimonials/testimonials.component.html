@@ -1,0 +1,15 @@
+<p-carousel [value]="images" styleClass="custom-carousel" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+    <ng-template let-img pTemplate="item">
+        <div class="car-details testimonial-details">
+            <div class="p-grid p-nogutter">
+                <div class="p-col-12">
+                    <img src="{{img.thumbnailImageSrc}}" />
+                </div>
+                <div class="p-col-12 car-data">
+                    <div class="car-title">{{img.desc}}</div>
+                    <div class="car-subtitle"><blockquote>{{img.name}} | {{img.place}}</blockquote></div>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>

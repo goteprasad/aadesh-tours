@@ -1,0 +1,25 @@
+.partners-wrapper{
+    margin: 0 !important;
+    color: #fff;
+}
+.partners-left-col{
+    background-color: #191e27;
+    padding: 30px 30px 30px 110px;
+}
+.partners-left-col h2{
+    text-align: left;
+}
+.partners-right-col{
+    background-color: #222935;
+    padding: 30px 110px 30px 30px;
+}
+.our-parterner-img-col{
+    text-align: center;
+}
+.our-parterner-img-col img{
+    width: 100px;
+}
+:host/deep/.p-carousel .p-carousel-content .p-carousel-prev, :host/deep/.p-carousel .p-carousel-content .p-carousel-next{
+    background-color: #005294 !important;
+    border-color: #005294 !important;
+}

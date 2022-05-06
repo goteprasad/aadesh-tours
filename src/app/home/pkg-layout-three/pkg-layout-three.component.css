@@ -1,0 +1,138 @@
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-details>.p-grid {
+    border: 1px solid #b3c2ca;
+    border-radius: 3px;
+    margin: 0.3em;
+    text-align: center;
+    padding: 2em 0 2.25em 0;
+}
+
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-data .car-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-data .car-subtitle {
+    margin: 0.25em 0 2em 0;
+}
+
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-data button {
+    margin-left: 0.5em;
+}
+
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-data button:first-child {
+    margin-left: 0;
+}
+
+:host/deep/.carousel-demo .p-carousel.custom-carousel .p-carousel-dot-icon {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50%;
+}
+
+:host/deep/.carousel-demo .p-carousel.p-carousel-horizontal .p-carousel-content .p-carousel-item.p-carousel-item-start .car-details>.p-grid {
+    margin-left: 0.6em;
+}
+
+:host/deep/.carousel-demo .p-carousel.p-carousel-horizontal .p-carousel-content .p-carousel-item.p-carousel-item-end .car-details>.p-grid {
+    margin-right: 0.6em;
+}
+
+:host/deep/.p-carousel-item img {
+    width: 100%;
+}
+
+:host/deep/.p-carousel-item {
+    padding: 0 15px;
+}
+
+:host/deep/.p-carousel-indicators {
+    display: none;
+}
+
+:host/deep/.car-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+:host/deep/.car-details {
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+:host/deep/.car-data {
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+::ng-deep.p-carousel-prev span,
+::ng-deep.p-carousel-next span {
+    color: #fff;
+}
+
+:host/deep/.p-button.p-state-default.p-button-secondary,
+body .p-buttonset.p-button-secondary>.p-button.p-state-default {
+    color: #fff;
+}
+
+:host/deep/.p-carousel .p-carousel-content .p-carousel-prev, :host/deep/.p-carousel .p-carousel-content .p-carousel-next{
+    background-color: #005294 !important;
+    border-color: #005294 !important;
+}
+
+.car-price {
+    background: #005294;
+    padding: 15px;
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    right: -10px;
+}
+.car-price:after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid #02111e;
+    border-right: 10px solid transparent;
+    top: 51px;
+    right: 0;
+}
+
+.pkg-duration {
+    color: #fff;
+}
+
+.pkg-duration i {
+    /* float: left; */
+    font-size: 18px;
+    margin-right: 0px;
+    position: relative;
+    top: 0px;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.p-grid{
+    z-index: 2;
+}
+.p-button-transparent{
+    background-color: transparent !important;
+    border-color: #fff !important;
+}
+.p-button-transparent:hover{
+    color: #fff !important;
+}

@@ -1,0 +1,58 @@
+{
+    "data":[
+        {
+            "previewImageSrc": "assets/images/slider/slider1.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider1.jpg",
+            "alt": "Description for Image 1",
+            "title": "Title 1"
+        },
+        {
+            "previewImageSrc": "assets/images/slider/slider2.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider2.jpg",
+            "alt": "Description for Image 2",
+            "title": "Title 2"
+        },
+        {
+            "previewImageSrc": "assets/images/slider/slider3.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider3.jpg",
+            "alt": "Description for Image 3",
+            "title": "Title 3"
+        },
+        {
+            "previewImageSrc": "assets/images/slider/slider6.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider6.jpg",
+            "alt": "Description for Image 6",
+            "title": "Title 6"
+        },
+        {
+            "previewImageSrc": "assets/images/slider/slider7.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider7.jpg",
+            "alt": "Description for Image 7",
+            "title": "Title 7"
+        },
+        {
+            "previewImageSrc": "assets/images/slider/slider8.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider8.jpg",
+            "alt": "Description for Image 8",
+            "title": "Title 8"
+        },
+        {
+            "previewImageSrc": "assets/images/slider/slider9.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider9.jpg",
+            "alt": "Description for Image 9",
+            "title": "Title 9"
+        },
+        {
+            "previewImageSrc": "assets/images/slider/slider10.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider10.jpg",
+            "alt": "Description for Image 10",
+            "title": "Title 10"
+        },
+        {
+            "previewImageSrc": "assets/images/slider/slider11.jpg",
+            "thumbnailImageSrc": "assets/images/slider/slider11.jpg",
+            "alt": "Description for Image 11",
+            "title": "Title 11"
+        }
+    ]
+}

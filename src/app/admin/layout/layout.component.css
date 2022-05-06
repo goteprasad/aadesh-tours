@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+.main-admin-section{
+    min-height: calc(100vh - 102px);
+}
+.footer{
+    padding: 10px 0;
+    background-color: #222;
+}

@@ -1,0 +1,19 @@
+<div class="row partners-wrapper">
+    <div class="col-sm-3 partners-left-col">
+        <h4>OUR</h4>
+        <h2>PARTNERS</h2>
+    </div>
+    <div class="col-sm-9 partners-right-col">
+        <p-carousel [value]="images" styleClass="custom-carousel" [numVisible]="5" [numScroll]="1" [circular]="true" [responsiveOptions]="responsiveOptions">
+            <ng-template let-img pTemplate="item">
+                <div class="car-details">
+                    <div class="p-grid p-nogutter our-parterner-img-col">
+                        <div class="p-col-12">
+                            <img src="{{img.thumbnailImageSrc}}" />
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </p-carousel>
+    </div>
+</div>

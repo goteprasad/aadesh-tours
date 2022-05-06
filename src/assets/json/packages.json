@@ -1,0 +1,31 @@
+{
+    "data":[
+        {
+            "previewImageSrc": "assets/images/packages/package1.jpg",
+            "thumbnailImageSrc": "assets/images/packages/package1.jpg",
+            "alt": "Description for Image 1",
+            "title": "Package 1",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            "price": "Rs.15000",
+            "duration": "5 days"
+        },
+        {
+            "previewImageSrc": "assets/images/packages/package2.jpg",
+            "thumbnailImageSrc": "assets/images/packages/package2.jpg",
+            "alt": "Description for Image 2",
+            "title": "Package 2",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            "price": "Rs.15000",
+            "duration": "5 days"
+        },
+        {
+            "previewImageSrc": "assets/images/packages/package3.jpg",
+            "thumbnailImageSrc": "assets/images/packages/package3.jpg",
+            "alt": "Description for Image 2",
+            "title": "Package 3",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            "price": "Rs.15000",
+            "duration": "5 days"
+        }
+    ]
+}

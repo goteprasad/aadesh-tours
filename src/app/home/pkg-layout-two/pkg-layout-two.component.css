@@ -1,0 +1,115 @@
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-details>.p-grid {
+    border: 1px solid #b3c2ca;
+    border-radius: 3px;
+    margin: 0.3em;
+    text-align: center;
+    padding: 2em 0 2.25em 0;
+}
+
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-data .car-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-data .car-subtitle {
+    margin: 0.25em 0 2em 0;
+}
+
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-data button {
+    margin-left: 0.5em;
+}
+
+:host/deep/.carousel-demo .p-carousel .p-carousel-content .p-carousel-item .car-data button:first-child {
+    margin-left: 0;
+}
+
+:host/deep/.carousel-demo .p-carousel.custom-carousel .p-carousel-dot-icon {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50%;
+}
+
+:host/deep/.carousel-demo .p-carousel.p-carousel-horizontal .p-carousel-content .p-carousel-item.p-carousel-item-start .car-details>.p-grid {
+    margin-left: 0.6em;
+}
+
+:host/deep/.carousel-demo .p-carousel.p-carousel-horizontal .p-carousel-content .p-carousel-item.p-carousel-item-end .car-details>.p-grid {
+    margin-right: 0.6em;
+}
+
+:host/deep/.p-carousel-item img {
+    width: 100%;
+}
+
+:host/deep/.p-carousel-item {
+    padding: 0 15px;
+}
+
+:host/deep/.p-carousel-indicators {
+    display: none;
+}
+
+:host/deep/.car-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+:host/deep/.car-details {
+    background-color: #fff;
+}
+
+:host/deep/.car-details:before {
+    position: absolute;
+    height: 97%;
+    width: 50%;
+    content: '';
+    background: #fff;
+    top: 15px;
+    left: 5px;
+    z-index: -1;
+    transform: rotate(-5deg);
+}
+
+:host/deep/.car-data {
+    padding: 15px;
+}
+
+::ng-deep.p-carousel-prev span,
+::ng-deep.p-carousel-next span {
+    color: #fff;
+}
+
+:host/deep/.p-button.ui-state-default.p-button-secondary,
+body .p-buttonset.p-button-secondary>.p-button.ui-state-default {
+    color: #fff;
+}
+
+:host/deep/.p-carousel .p-carousel-content .p-carousel-prev, :host/deep/.p-carousel .p-carousel-content .p-carousel-next{
+    background-color: #005294 !important;
+    border-color: #005294 !important;
+}
+
+.car-price {
+    background: #fb8b01;
+    padding: 15px 15px 10px 15px;
+    color: #fff;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 50px 50px 0 0;
+    text-align: center;
+    position: relative;
+    top: -46px;
+}
+
+.pkg-duration {
+    color: #005294;
+}
+
+.pkg-duration i {
+    float: left;
+    font-size: 18px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}

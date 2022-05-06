@@ -1,0 +1,24 @@
+::ng-deep.p-carousel-indicators{
+    display: none !important;
+}
+.testimonial-details{
+    text-align: center;
+}
+.testimonial-details img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #005294;
+    padding: 5px;
+}
+.testimonial-details blockquote{
+    color: #d60d45;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+:host/deep/.p-carousel .p-carousel-content .p-carousel-prev, :host/deep/.p-carousel .p-carousel-content .p-carousel-next{
+    background-color: #005294 !important;
+    border-color: #005294 !important;
+}

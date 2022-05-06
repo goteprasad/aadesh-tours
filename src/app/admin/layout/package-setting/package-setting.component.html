@@ -1,0 +1,75 @@
+<div class="row mt-3">
+    <div class="col-sm-6">
+        <p-card class="login-card">
+            <p-header>
+                <h4>Add Packages</h4>
+            </p-header>
+
+            <form [formGroup]="packagesForm">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="form-label">Package type <span class="text-danger">*</span></label>
+                            <p-dropdown placeholder="Select package" [options]="packageTypes" formControlName="pkgType" optionLabel="label"></p-dropdown>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="form-label">Package name <span class="text-danger">*</span></label>
+                            <input pInputText formControlName="pkgName" type="text" placeholder="Package name"
+                                class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="form-label">Duration <span class="text-danger">*</span></label>
+                            <input pInputText formControlName="duration" type="number" placeholder="Duration (in days)"
+                                class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 mt-3">
+                        <div class="form-group">
+                            <label class="form-label">Price <span class="text-danger">*</span></label>
+                            <input pInputText formControlName="price" type="number" placeholder="Price"
+                                class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-4 mt-3">
+                        <div class="form-group">
+                            <label class="form-label">Season</label>
+                            <p-dropdown placeholder="Select season" [options]="seasons" formControlName="season" optionLabel="label"></p-dropdown>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 mt-3">
+                        <div class="form-group">
+                            <label class="form-label">Description <span class="text-danger">*</span></label>
+                            <textarea pInputTextarea formControlName="desc" type="number" placeholder="Description"
+                                class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 mt-3">
+                        <div class="form-group">
+                            <label class="form-label">Facilities (use quama , after every text)</label>
+                            <p-chips formControlName="facilities" separator=","></p-chips>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 mt-3">
+                        <div class="form-group">
+                            <label class="form-label">Tems & conditions</label>
+                            <textarea pInputTextarea formControlName="temsConditions" type="number" placeholder="Tems & conditions"
+                                class="form-control"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <p-footer>
+                <div class="text-end">
+                    <button pButton type="button" label="Submit" (click)="onSubmit()"></button>
+                </div>
+            </p-footer>
+        </p-card>
+    </div>
+    <div class="col-sm-6">
+
+    </div>
+</div>

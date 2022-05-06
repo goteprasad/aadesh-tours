@@ -1,0 +1,71 @@
+<header class="header">
+    <app-header></app-header>
+</header>
+<section>
+    <div class="container">
+        <p-tabView>
+            <p-tabPanel header="Popular packages" leftIcon="pi pi-calendar">
+                <div class="row" *ngIf="images && images.length">
+                    <div class="col-sm-4" *ngFor="let pkg of images">
+                        <p-card header="{{pkg.title}}" subheader="{{pkg.price}}" styleClass="ui-card-shadow">
+                            <p-header>
+                                <img src="Card" src="{{pkg.thumbnailImageSrc}}">
+                            </p-header>
+                            <div>
+                                <h6>{{pkg.duration}}</h6>
+                                {{pkg.desc}}
+                            </div>
+                            <p-footer>
+                                <button pButton type="button" label="View details" 
+                                    style="margin-right: .25em"></button>
+                            </p-footer>
+                        </p-card>
+                    </div>
+                </div>
+            </p-tabPanel>
+            <p-tabPanel header="Best of the season" leftIcon="pi pi-inbox">
+                <div class="row" *ngIf="images && images.length">
+                    <div class="col-sm-4" *ngFor="let pkg of images">
+                        <p-card header="{{pkg.title}}" subheader="{{pkg.price}}" styleClass="ui-card-shadow">
+                            <p-header>
+                                <img src="Card" src="{{pkg.thumbnailImageSrc}}">
+                            </p-header>
+                            <div>
+                                <h6>{{pkg.duration}}</h6>
+                                {{pkg.desc}}
+                            </div>
+                            <p-footer>
+                                <button pButton type="button" label="View details" 
+                                    style="margin-right: .25em"></button>
+                            </p-footer>
+                        </p-card>
+                    </div>
+                </div>
+            </p-tabPanel>
+            <p-tabPanel header="International tours" leftIcon="pi pi-user" rightIcon="pi pi-star">
+                <div class="row" *ngIf="images && images.length">
+                    <div class="col-sm-4" *ngFor="let pkg of images">
+                        <p-card header="{{pkg.title}}" subheader="{{pkg.price}}" styleClass="ui-card-shadow">
+                            <p-header>
+                                <img src="Card" src="{{pkg.thumbnailImageSrc}}">
+                            </p-header>
+                            <div>
+                                <h6>{{pkg.duration}}</h6>
+                                {{pkg.desc}}
+                            </div>
+                            <p-footer>
+                                <button pButton type="button" label="View details"
+                                    style="margin-right: .25em"></button>
+                            </p-footer>
+                        </p-card>
+                    </div>
+                </div>
+            </p-tabPanel>
+        </p-tabView>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <app-footer></app-footer>
+    </div>
+</footer>

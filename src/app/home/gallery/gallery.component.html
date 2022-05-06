@@ -1,0 +1,33 @@
+<header class="header">
+    <app-header></app-header>
+</header>
+<section>
+    <div class="container">
+        <h2>Our beutiful memories</h2>
+        <p-galleria [value]="images" [(visible)]="displayCustom" [(activeIndex)]="activeIndex"
+            [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '850px'}" [numVisible]="7"
+            [circular]="true" [fullScreen]="true" [showItemNavigators]="true" [showThumbnails]="false"
+            [baseZIndex]="100000">
+            <ng-template pTemplate="item" let-item>
+                <img [src]="item.previewImageSrc" style="width: 100%; display: block;" />
+            </ng-template>
+            <ng-template pTemplate="thumbnail" let-item>
+                <div class="p-grid p-nogutter p-justify-center">
+                    <img [src]="item.thumbnailImageSrc" style="display: block;" />
+                </div>
+            </ng-template>
+        </p-galleria>
+        <div *ngIf="images" class="row">
+            <div class="col-sm-3" *ngFor="let image of images; let index = index;" key="index">
+                <div class="col-photo-gallery">
+                    <img [src]="image.thumbnailImageSrc" [alt]="image.alt" style="cursor: pointer" (click)="imageClick(index)"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <app-footer></app-footer>
+    </div>
+</footer>

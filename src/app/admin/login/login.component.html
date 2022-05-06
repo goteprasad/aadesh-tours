@@ -1,0 +1,26 @@
+<div class="login-signup-container">
+    <p-card class="login-card">
+        <p-header class="text-center">
+            <h2>Login</h2>
+        </p-header>
+        <form [formGroup]="loginForm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label class="form-label">User name</label>
+                        <input pInputText formControlName="userName" type="text" placeholder="User name" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-12 mt-3">
+                    <div class="form-group">
+                        <label class="form-label">Password</label>
+                        <input pInputText formControlName="password" type="password" placeholder="Password" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p-footer>
+            <button pButton type="button" label="Login" (click)="onSubmitForm()" class="login-btn"></button>
+        </p-footer>
+    </p-card>
+</div>
